@@ -12,6 +12,7 @@ h1 {
   margin: 0;
   padding: 0;
   color: white;
+  font-weight: 700;
 }
 
 h2 {
@@ -59,7 +60,6 @@ button {
   font-size: 16px;
   box-shadow: 2px 3px rgba(69, 69, 69, 0.475);
   border: none;
-  margin-top: 10px;
   color: white;
   background: linear-gradient(to right, rgb(243, 104, 25), rgb(243, 156, 25));
 }
@@ -78,6 +78,10 @@ p {
   padding: 5% 15% 0;
 }
 
+.wrapper#footer {
+  padding: 1% 15% 0;
+}
+
 header {
   height: 60px;
   width: 100%;
@@ -94,6 +98,48 @@ header {
 }
 
 .item {
+  width: 100%;
+  height: 509px;
+  position: relative;
+}
+
+.slider-images1 {
+  background: linear-gradient(
+    to right,
+    rgba(243, 104, 25, 0.3),
+    rgba(0, 0, 0, 0.3)),
+    url(/assets/hero-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 509px;
+  position: relative;
+}
+
+.slider-images2 {
+  background: linear-gradient(
+    to right,
+    rgba(243, 104, 25, 0.3),
+    rgba(0, 0, 0, 0.3)),
+    url(/assets/blueprint.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 509px;
+  position: relative;
+}
+
+.slider-images3 {
+  background: linear-gradient(
+    to right,
+    rgba(243, 104, 25, 0.3),
+    rgba(0, 0, 0, 0.3)),
+    url(/assets/phone.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 509px;
   position: relative;
@@ -151,20 +197,6 @@ label {
   width: 40%;
 }
 
-
-.slider-images {
-  background: linear-gradient(
-      to right,
-      rgba(243, 104, 25, 0.3),
-      rgba(0, 0, 0, 0.3));
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 509px;
-  position: relative;
-}
-
 .icon-description {
   padding: 5% 0 0;
 }
@@ -195,7 +227,8 @@ label {
 }
 
 .percentage-button {
-  padding: 0 0 0 10%;
+  padding: 0 0 0 15%;
+  margin: 0;
 }
 
 .percentage {
@@ -215,12 +248,19 @@ label {
 
 .percentage p {
   color: #F36819;
+  padding: 5% 17%;
 }
 
 .vertical-align {
   display: flex;
   align-items: center;
   padding: 25px 0;
+}
+
+.vertical-align#spacing {
+  display: flex;
+  align-items: center;
+  padding: 25px 0 50px;
 }
 
 .picture-description#left {
@@ -250,20 +290,38 @@ footer {
 }
 
 .input-form {
-  padding: 3% 3% 0;
+  padding: 5% 3% 0;
   font-size: 18px;
 }
 
-input, textarea {
+input {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 18px;
+  color: black;
+  border-radius: 1px;
+}
+
+textarea {
   width: 100%;
   padding: 3px 0;
-  font-size: 20px;
+  font-size: 18px;
   color: black;
   border-radius: 5px;
 }
 
 .footer-button {
   width: 70%;
+  padding: 6px 0;
+}
+
+ul.footer-list {
+  padding: 7% 0;  
+}
+
+li.footer-list-item {
+  padding: 2% 0;
+  list-style-type: none;
 }
 
 .index-social-icon {
@@ -274,7 +332,6 @@ input, textarea {
 
 .index-social-container {
   margin: 0 auto;
-  padding: 20% 0;
 }
 
 .blue-slanted-image {
