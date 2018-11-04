@@ -244,12 +244,12 @@ label {
   padding: 5% 0;
 }
 
-.percentage#left {
+.percentage#leftpercentage {
   text-align: center;
   padding: 5% 7% 0 0;
 }
 
-.percentage#right {
+.percentage#rightpercentage {
   text-align: center;
   padding: 5% 0 0 7%;
 }
