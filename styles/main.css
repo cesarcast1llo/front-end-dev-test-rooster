@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   padding: 0;
   margin: 0 auto;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 20px;
 }
 
@@ -38,6 +38,10 @@ span {
   text-align: center;
 }
 
+.row {
+  margin: 0;
+}
+
 .sub-title {
   font-size: 28px;
   color: #F36819;
@@ -71,19 +75,17 @@ button:hover {
 }
 
 p {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 20px;
 }
 
 .wrapper {
   padding: 5% 15% 0;
-  margin: 0;
 }
 
 .wrapper#footer {
   padding: 1% 15% 0;
   text-align: center;
-  margin: 0;
 }
 
 header {
@@ -209,7 +211,7 @@ label {
   background: url(/assets/page-icon.svg);
   background-position: left;
   background-repeat: no-repeat;
-  padding: 0 60px;
+  padding: 0 0 0 20%;
 }
 
 .gradient-blue {
@@ -292,7 +294,7 @@ footer {
 }
 
 .input-form {
-  padding: 5% 3% 0;
+  padding: 5% 4% 0;
   font-size: 18px;
 }
 
@@ -334,7 +336,7 @@ li.footer-list-item {
 .index-social-icon {
   width: 30px;
   height: 30px;
-  margin: 0 1px;
+  margin: 0 5px;
 }
 
 .index-social-container {
@@ -348,9 +350,17 @@ li.footer-list-item {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+  p {
+    font-size: 20px;
+  }
   .wrapper {
-    padding: 5% 10% 0;
-    margin: 0;
+    padding: 5% 15% 0;
+  }
+  .wrapper#footer {
+    text-align: center;
+  }
+  .info-icon {
+    padding: 0 0 0 15%;
   }
   .percentage, .percentage#right, .percentage#left {
     padding: 5% 0 0;
@@ -361,11 +371,7 @@ li.footer-list-item {
   .picture-description#left, .picture-description#right {
     padding: 0 2%;
   }
-  .wrapper#footer {
-    text-align: center;
-    margin: 0;
-  }
-  input {
+  input#footerform {
     width: 150%;
   }
   .input-form {
@@ -380,26 +386,30 @@ li.footer-list-item {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    background-size: 15%;
+  }
+  textarea {
+    width: 140%;
+  }
   .wrapper, .wrapper#footer {
     padding: 5% 5% 0;
-    margin: 0;
   }
   .gradient-text {
     font-size: 20px;
     padding: 7% 5% 3% 0;
+  }  
+  .vertical-align {
+    display: inline-block;
+  }
+  .sub-title {
+    padding: 2% 0;
   }
   .percentage-button {
     padding: 8% 0 8% 35%;
   }
   .percentage, .percentage#right, .percentage#left {
     padding: 5% 1% 0;
-  }
-  
-  .vertical-align {
-    display: inline-block;
-  }
-  .sub-title {
-    padding: 2% 0;
   }
   .picture-description#right {
     padding: 3% 5% 0 10%;
@@ -428,10 +438,201 @@ li.footer-list-item {
     padding: 6px 20px;
   }
 }
-
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  header {
+    background-size: 15%;
+  }
+  .info-icon {
+    padding: 0 0 0 25%;
+  }
+  .gradient-text {
+    font-size: 16px;
+    padding: 10% 5% 3% 0;
+  }
+  .vertical-align {
+    display: inline-block;
+  }
+  .sub-title {
+    padding: 2% 0;
+  }
+  .percentage-button {
+    padding: 8% 0 8% 27%;
+  }
+  .percentage, .percentage#right, .percentage#left {
+    padding: 5% 1% 0;
+  }
+  .picture-description#right {
+    padding: 3% 5% 0 10%;
+    float: left !important;
+  }
+  .picture-description p {
+    padding: 1% 6% 1% 0;
+  }
+  .scaled-image {
+    padding: 0 5%;
+    width: 100%;
+  }
+  .input-form#footer-input {
+    display: inline-block;
+    padding: 5% 2% 0;
+    text-align:top;
+  }
+  .input-form {
+    display: inline-block;
+    padding: 5% 7% 0;
+    text-align:top;
+  }
+  input {
+    width: 100%;
+  }
   .footer-button {
-    width: 70%;
-    padding: 6px 10px;
+    width: 100%;
+    padding: 6px 20px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 600px) {
+  p {
+    font-size: 18px;
+  }
+  textarea {
+    width: 120%;
+  }
+  .popup-form {
+    width: 60%;
+  }
+  header {
+    background-size: 20%;
+  }
+  .info-icon {
+    padding: 0 0 0 25%;
+  }
+  .gradient-text {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20% 5% 3% 0;
+  }
+  .vertical-align {
+    display: inline-block;
+  }
+  .sub-title {
+    padding: 2% 0;
+  }
+  .percentage-button {
+    padding: 8% 0 8% 20%;
+  }
+  .row-text-spacing {
+    display: block;
+    padding: 3% 0;
+    margin: 0;
+  }
+  .percentage, .percentage#right, .percentage#left {
+    padding: 5% 1% 0;
+  }
+  .picture-description#right {
+    padding: 3% 5% 0 10%;
+    float: left !important;
+  }
+  .picture-description p {
+    padding: 1% 6% 1% 0;
+  }
+  .scaled-image {
+    padding: 0 5%;
+    width: 100%;
+  }
+  .input-form#footer-input {
+    display: inline-block;
+    padding: 5% 5% 0;
+    text-align:top;
+  }
+  .input-form {
+    font-size: 16px;
+    display: inline-block;
+    padding: 5% 2% 0;
+    text-align:top;
+  }
+  input {
+    width: 120%;
+  }
+  .subscribe-button {
+    width: 120%;
+    padding: 6px 20px;
+  }
+  .index-social-icon {
+    width: 25px;
+    height: 20px;
+    margin: 0 1px;
+  }
+} 
+@media only screen and (max-width: 450px) {
+  p {
+    font-size: 16px;
+  }
+  textarea {
+    width: 120%;
+  }
+  .popup-form {
+    width: 80%;
+  }
+  header {
+    background-size: 25%;
+  }
+  .info-icon {
+    padding: 0 0 0 25%;
+  }
+  .gradient-text {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 25% 5% 3% 0;
+  }
+  .vertical-align {
+    display: inline-block;
+  }
+  .sub-title {
+    padding: 2% 0;
+  }
+  .percentage-button {
+    padding: 8% 0 8% 10%;
+  }
+  .row-text-spacing {
+    display: block;
+    padding: 3% 0;
+    margin: 0;
+  }
+  .percentage, .percentage#right, .percentage#left {
+    padding: 5% 1% 0;
+  }
+  .picture-description#right {
+    padding: 3% 5% 0 10%;
+    float: left !important;
+  }
+  .picture-description p {
+    padding: 1% 6% 1% 0;
+  }
+  .scaled-image {
+    padding: 0 5%;
+    width: 100%;
+  }
+  .input-form#footer-input {
+    display: inline-block;
+    padding: 5% 5% 0;
+    text-align:top;
+  }
+  .input-form {
+    font-size: 16px;
+    display: inline-block;
+    padding: 5% 2% 0;
+    text-align:top;
+  }
+  input {
+    width: 120%;
+  }
+  .subscribe-button {
+    width: 120%;
+    padding: 6px 20px;
+  }
+  .index-social-icon {
+    width: 25px;
+    height: 20px;
+    margin: 0 1px;
   }
 }
