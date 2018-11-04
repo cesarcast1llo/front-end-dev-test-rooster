@@ -362,7 +362,7 @@ li.footer-list-item {
   .info-icon {
     padding: 0 0 0 15%;
   }
-  .percentage, .percentage#right, .percentage#left {
+  .percentage, .percentage#rightpercentage, .percentage#leftpercentage {
     padding: 5% 0 0;
   }
   .percentage p{
@@ -408,7 +408,7 @@ li.footer-list-item {
   .percentage-button {
     padding: 8% 0 8% 35%;
   }
-  .percentage, .percentage#right, .percentage#left {
+  .percentage, .percentage#rightpercentage, .percentage#leftpercentage {
     padding: 5% 1% 0;
   }
   .picture-description#right {
@@ -458,7 +458,7 @@ li.footer-list-item {
   .percentage-button {
     padding: 8% 0 8% 27%;
   }
-  .percentage, .percentage#right, .percentage#left {
+  .percentage, .percentage#rightpercentage, .percentage#leftpercentage {
     padding: 5% 1% 0;
   }
   .picture-description#right {
@@ -525,7 +525,7 @@ li.footer-list-item {
     padding: 3% 0;
     margin: 0;
   }
-  .percentage, .percentage#right, .percentage#left {
+  .percentage, .percentage#rightpercentage, .percentage#leftpercentage {
     padding: 5% 1% 0;
   }
   .picture-description#right {
@@ -598,7 +598,7 @@ li.footer-list-item {
     padding: 3% 0;
     margin: 0;
   }
-  .percentage, .percentage#right, .percentage#left {
+  .percentage, .percentage#rightpercentage, .percentage#leftpercentage {
     padding: 5% 1% 0;
   }
   .picture-description#right {

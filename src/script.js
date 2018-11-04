@@ -1,5 +1,5 @@
 var popup = document.getElementById('popup');
-var button = document.getElementsByClassName("close-popup")[0];
+var button = document.getElementsByClassName("close-popup");
 var openButton = document.getElementById("button");
 
 openButton.onclick = function() {
